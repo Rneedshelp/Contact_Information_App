@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:id="@+id/fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter First Name"
+            android:inputType="text"
+            android:textSize="18sp" />
+
+    <EditText
+            android:id="@+id/lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="top|left"
+            android:hint="Enter Last Name"
+            android:inputType="textAutoComplete"
+            android:textSize="18sp" />
+
+    <EditText
+            android:id="@+id/phonenum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/big_padding"
+            android:layout_marginBottom="@dimen/big_padding"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter Cell Number"
+            android:inputType="phone"
+            android:padding="@dimen/small_padding"
+            android:maxLength="10"
+            android:textSize="18sp" />
+
+    <EditText
+            android:id="@+id/email_addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter @ E-Mail Address"
+            android:inputType="textEmailAddress"
+            android:maxLength="40"
+            android:textSize="18sp" />
+
+    <EditText
+            android:id="@+id/soc_sec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter Your SSN"
+            android:inputType="number"
+            android:maxLength="9"
+            android:textSize="18sp" />
+
+
+    <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:paddingLeft="175dp"
+            android:text="@string/button_save"
+            android:textColor="@color/buttonLabel" />
+
+</LinearLayout>
